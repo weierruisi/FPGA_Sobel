@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ov5640_hdmi_1280x720">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst1|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst2|ddio_out:ddio_out_inst0|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sobel_top:sobel_top_inst|gray:gray_inst|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_kgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst2|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst3|ddio_out:ddio_out_inst0|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sdram_top:sdram_top_inst|fifo_ctrl:fifo_ctrl_inst|fifo_data:wr_fifo_data|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_3fk1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sobel_top:sobel_top_inst|gray:gray_inst|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_lgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sobel_top:sobel_top_inst|sobel:sobel_inst|fifo_sobel:fifo_sobel_inst1|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_g741.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|clk_gen:clk_gen_inst|altpll:altpll_component" CBX_FILE_NAME="clk_gen_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|clk_hdmi:clk_hdmi_inst|altpll:altpll_component" CBX_FILE_NAME="clk_hdmi_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst0|ddio_out:ddio_out_inst0|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst3|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sdram_top:sdram_top_inst|fifo_ctrl:fifo_ctrl_inst|fifo_data:rd_fifo_data|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_3fk1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sobel_top:sobel_top_inst|sobel:sobel_inst|fifo_sobel:fifo_sobel_inst2|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_g741.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|sobel_top:sobel_top_inst|sobel:sobel_inst|lpm_add_sub:Add13" CBX_FILE_NAME="add_sub_mvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst0|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_1280x720|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst1|ddio_out:ddio_out_inst0|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
